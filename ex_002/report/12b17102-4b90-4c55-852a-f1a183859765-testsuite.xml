@@ -1,0 +1,86 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1530264068284" stop="1530264068445">
+  <name>scripts.test_001</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1530264068284" status="passed" stop="1530264068294">
+      <name>TestDemo.test_001</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3800-MainThread"/>
+        <label name="host" value="USER-20170812NL"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1530264068318" status="failed" stop="1530264068432">
+      <name>TestDemo.test_002</name>
+      <failure>
+        <message>AssertionError: assert 0</message>
+        <stack-trace>self = &lt;scripts.test_001.TestDemo object at 0x0000000003AF0E80&gt;
+
+    def test_002(self):
+&gt;       assert 0
+E       assert 0
+
+scripts\test_001.py:7: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3800-MainThread"/>
+        <label name="host" value="USER-20170812NL"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1530264068433" status="passed" stop="1530264068435">
+      <name>TestDemo.test_003</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3800-MainThread"/>
+        <label name="host" value="USER-20170812NL"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1530264068435" status="failed" stop="1530264068441">
+      <name>TestDemo.test_004</name>
+      <failure>
+        <message>AssertionError: assert 0</message>
+        <stack-trace>self = &lt;scripts.test_001.TestDemo object at 0x0000000003B23128&gt;
+
+    def test_004(self):
+&gt;       assert 0
+E       assert 0
+
+scripts\test_001.py:13: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3800-MainThread"/>
+        <label name="host" value="USER-20170812NL"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1530264068443" status="passed" stop="1530264068445">
+      <name>TestDemo.test_005</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3800-MainThread"/>
+        <label name="host" value="USER-20170812NL"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
